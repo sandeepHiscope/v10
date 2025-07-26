@@ -417,7 +417,8 @@ export default function VerifyDocScreen() {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <View style={styles.tabContainer}>
+      
+<View style={styles.tabContainer}>
         <TouchableOpacity
           style={[
             styles.tabButton,
@@ -459,7 +460,6 @@ export default function VerifyDocScreen() {
           </Text>
         </TouchableOpacity>
       </View>
-
       <ScrollView style={styles.container}>
         <View style={styles.contentContainer}>
           {activeTab === "scan" && (
@@ -564,6 +564,7 @@ export default function VerifyDocScreen() {
                   </Text>
                 </View>
               </View>
+              
             </>
           )}
 
